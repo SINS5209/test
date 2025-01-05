@@ -1,0 +1,599 @@
+/*style for index*/
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: black;
+    color: white;
+  }
+}
+
+body {
+  font-family: comic sans MS;
+}
+
+#header1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2px;
+  position: relative;
+  box-shadow: 0px 1px 2px black;
+}
+
+.menu-icon {
+  z-index: 1001;
+  /* Memastikan header tetap di atas */
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+#logo1 {
+  padding: 10px;
+}
+
+#adps-text {
+  margin-left: 10px;
+  font-size: 18pt;
+  z-index: 599;
+}
+
+.container {
+  background-color: white;
+  box-shadow: 0px 1px 3px black;
+  width: auto;
+  padding: 5px;
+  font-family: comic sans MS;
+}
+
+aside {
+  display: none;
+}
+
+.VA-hitori {
+  border: 1px solid black;
+  padding: 2px;
+  display: flex;
+}
+
+.VA-nijika {
+  border: 1px solid black;
+  padding: 2px;
+  display: flex;
+}
+
+.VA-ryou {
+  border: 1px solid black;
+  padding: 2px;
+  display: flex;
+}
+
+.VA-ikuyo {
+  border: 1px solid black;
+  padding: 2px;
+  display: flex;
+}
+
+.linkto_hitori {
+  text-decoration: none;
+  color: black;
+}
+
+.linkto_nijika {
+  text-decoration: none;
+  color: black;
+}
+
+.linkto_ryou {
+  text-decoration: none;
+  color: black;
+}
+
+.linkto_ikuyo {
+  text-decoration: none;
+  color: black;
+}
+
+#aboutmc {
+  font-size: 14px;
+}
+
+#job {
+  text-decoration: underline;
+  margin-left: -205px;
+  margin-top: 60px;
+}
+
+#job1 {
+  text-decoration: underline;
+  margin-left: -220px;
+  margin-top: 60px;
+}
+
+#job2 {
+  text-decoration: underline;
+  margin-left: -150px;
+  margin-top: 60px;
+}
+
+#job3 {
+  text-decoration: underline;
+  margin-left: -185px;
+  margin-top: 60px;
+}
+
+.bocchi {
+  box-shadow: 0px 0px 0px 1px black;
+  padding: 2px;
+  background-color: white;
+  display: flex;
+}
+
+.nijika {
+  box-shadow: 0px 0px 0px 1px black;
+  padding: 2px;
+  background-color: white;
+  display: flex;
+}
+
+.ryo {
+  box-shadow: 0px 0px 0px 1px black;
+  padding: 2px;
+  background-color: white;
+  display: flex;
+}
+
+.ikuyo {
+  box-shadow: 0px 0px 0px 1px black;
+  padding: 2px;
+  background-color: white;
+  display: flex;
+}
+
+#profile-bocchi {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+}
+
+#name-bocchi {
+  margin-left: 10px;
+}
+
+#profile-nijika {
+  width: 100px;
+  height: 100px;
+}
+
+#name-ryo {
+  margin-left: 10px;
+}
+
+#name-nijika {
+  margin-left: 10px;
+}
+
+#name-ikuyo {
+  margin-left: 10px;
+}
+
+#name-aoyama {
+  margin-left: 10px;
+}
+
+#name-sayumi {
+  margin-left: 10px;
+}
+
+#name-saku {
+  margin-left: 10px;
+}
+
+#name-ikumi {
+  margin-left: 10px;
+}
+
+#profile-nijika {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+}
+
+#profile-ryo {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+}
+
+#profile-ikuyo {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+}
+
+#profile-yoshino {
+  border: 1px solid black;
+  width: 70px;
+  height: 100px;
+}
+
+#profile-sayumi {
+  width: 70px;
+  height: 100px;
+  border: 1px solid black;
+}
+
+#profile-saku {
+  width: 70px;
+  height: 100px;
+  border: 1px solid black;
+}
+
+#profile-ikumi {
+  width: 70px;
+  height: 100px;
+  border: 1px solid black;
+}
+
+#description-bocchi {
+  margin-top: 110px;
+  margin-left: -210px;
+}
+
+#description-nijika {
+  margin-top: 110px;
+  margin-left: -200px;
+}
+
+#description-ryo {
+  margin-top: 110px;
+  margin-left: -225px;
+}
+
+#description-ikuyo {
+  margin-top: 110px;
+  margin-left: -185px;
+}
+
+.menu-icon {
+  display: block;
+  font-size: 30px;
+  cursor: pointer;
+  padding: 10px;
+  position: relative;
+  /* Tetapkan posisi agar tetap di tempat */
+  z-index: 1002;
+  /* Pastikan tombol tetap di atas menu */
+}
+
+.menu-icon:hover {
+  color: grey;
+}
+
+.linkto_hitori:focus,
+.linkto_hitori:active {
+  outline: none;
+  color: inherit;
+  background-color: transparent;
+}
+
+nav {
+  background-color: whitesmoke;
+  position: fixed;
+  box-shadow: 0px 1px 2px black;
+  top: 0;
+  right: -250px;
+  /* Awalnya sembunyikan menu di luar layar */
+  width: 175px;
+  height: 100%;
+  transition: right 0.3s ease;
+  padding-top: 60px;
+  /* Pastikan menu tidak bertumpuk dengan header */
+  z-index: 1000;
+  /* Memastikan menu di bawah header */
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  padding: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  display: block;
+  color: black;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+
+nav.active {
+  right: 0;
+  /* Tampilkan menu di layar saat aktif */
+}
+
+@media screen and (min-width: 600px) {
+
+  nav {
+    position: static;
+    width: auto;
+    height: auto;
+    padding-top: 0;
+    display: flex;
+    flex-direction: row;
+    right: auto;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: row;
+  }
+
+  ul li {
+    padding: 10px;
+  }
+
+  ul li a:hover {
+    color: #575757;
+  }
+
+
+  #home {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+  }
+
+  #about {
+    padding: 10px;
+  }
+
+  .menu-icon {
+    display: none;
+    /* Sembunyikan tombol menu di layar besar */
+  }
+
+  .layout {
+    display: flex;
+    flex: space-between;
+  }
+
+  .container {
+    width: 60%;
+  }
+
+  body {
+    font-size: 20px;
+  }
+
+  ul hr {
+    border: none;
+    border-left: 2px solid grey;
+    height: 100px;
+    width: 0;
+    margin-left: 10px;
+  }
+
+
+  #aboutmc {
+    white-space: nowrap;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
+  .bocchi:hover {
+    color: whitesmoke;
+    background-color: grey;
+    opacity: 80%;
+  }
+
+  .nijika:hover {
+    color: whitesmoke;
+    background-color: grey;
+    opacity: 80%;
+  }
+
+  .ryo:hover {
+    color: whitesmoke;
+    background-color: grey;
+    opacity: 80%;
+  }
+
+  .ikuyo:hover {
+    color: whitesmoke;
+    background-color: grey;
+    opacity: 80%;
+  }
+
+  #description-bocchi {
+    margin-left: -230px;
+  }
+
+  #description-nijika {
+    margin-left: -220px;
+  }
+
+  #description-ryo {
+    margin-left: -255px;
+  }
+
+  #description-ikuyo {
+    margin-left: -210px;
+  }
+
+  #description-aoyama {
+    margin-left: -115px;
+    margin-top: 107px;
+  }
+
+  #description-sayumi {
+    margin-left: -120px;
+    margin-top: 107px;
+  }
+
+  #description-saku {
+    margin-left: -120px;
+    margin-top: 110px;
+  }
+
+  #description-ikumi {
+    margin-left: -120px;
+    margin-top: 108px;
+  }
+
+  aside {
+    display: block;
+    padding: 5px;
+    margin-left: 10px;
+    background-color: white;
+    box-shadow: 0px 1px 2px black;
+    width: 50%;
+  }
+}
+
+/*STYLE FOR ABOUT PAGE*/
+/*STYLE FOR ABOUT PAGE*/
+/*STYLE FOR ABOUT PAGE*/
+/*STYLE FOR ABOUT PAGE*/
+/*STYLE FOR ABOUT PAGE*/
+/*STYLE FOR ABOUT PAGE*/
+/*STYLE FOR ABOUT PAGE*/
+
+
+main {
+  background-color: white;
+  box-shadow: 1px 1px 2px black;
+  padding: 5px;
+}
+
+#thum1 {
+  width: 332px;
+  border: 1px solid black;
+}
+
+.slide_ {
+  background-color: whitesmoke;
+  padding: 10px;
+  box-shadow: 0.5px 0.5px 1px black;
+  border: 0.5px solid grey;
+  display: flex;
+}
+
+.character {
+  display: none;
+}
+
+#hitori,
+#ryou,
+#nijika,
+#ikuyo {
+  width: 60px;
+  border: 1px solid black;
+  height: 60px;
+}
+
+#name-hitori2,
+#name-ryou2,
+#name-nijika2,
+#name-ikuyo2 {
+  margin-left: 10px;
+  margin-top: 1px;
+}
+
+#status_main1,
+#status_main2,
+#status_main3,
+#status_main4 {
+  margin-top: 30px;
+  margin-left: -115px;
+}
+
+#pengisi_suara1,
+#pengisi_suara2,
+#pengisi_suara3,
+#pengisi_suara4 {
+  margin-top: 50px;
+  margin-left: -40px;
+}
+
+#status_main2 {
+  margin-top: 30px;
+  margin-left: -130px;
+}
+
+#status_main3 {
+  margin-left: -105px;
+}
+
+#status_main4 {
+  margin-left: -95px;
+}
+
+@media screen and (min-width: 600px) {
+  .item {
+    display: none;
+  }
+  
+  .character {
+    display: flex;
+    gap: 1px;
+  }
+  
+  .character1 {
+    display: flex;
+    gap: 1px;
+  }
+  
+  .horizontal-scroll {
+    width: 100%;
+    overflow-x: scroll;
+  }
+  
+  horizontal-scroll::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .card img {
+    width: 150px;
+    border: 2px solid blue;
+  }
+  
+  .card {
+    width: 150px;
+    position: relative;
+  }
+  
+    .card span {
+      font-size: 0%;
+      transition: 0s;
+    }
+  
+  .card span {
+    opacity: 0%;
+    transition: 0.5s;
+    
+  }
+  
+  .card figcaption {
+    padding: 1rem 0;
+    background-color: #000000A1;
+    width: 103%;
+    text-align: center;
+    transition: 0.5s;
+    color: #FFFFFF;
+  }
+  
+  .card:hover figcaption {
+    padding: 2rem 0;
+  }
+  
+  .card:hover span {
+    opacity: 100%;
+    font-size: 100%;
+  }
+}
